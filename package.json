@@ -1,0 +1,14 @@
+{
+  "name": "gaio-simulador",
+  "version": "1.0.0",
+  "description": "GAIO - Simulador de Gestão de Projetos de TI",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

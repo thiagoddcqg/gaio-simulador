@@ -1,0 +1,28 @@
+[
+  {
+    "text": "Um desenvolvedor está sobrecarregado e demonstra sinais de estresse.",
+    "choices": [
+      {
+        "label": "Redistribuir tarefas",
+        "effect": { "productivity": -5, "morale": 5, "burnout": -5 }
+      },
+      {
+        "label": "Manter como está",
+        "effect": { "productivity": 5, "morale": -10, "burnout": 10 }
+      }
+    ]
+  },
+  {
+    "text": "O cliente solicitou mudança de escopo sem aumentar o orçamento.",
+    "choices": [
+      {
+        "label": "Negociar prazo",
+        "effect": { "risk": -5, "morale": 5 }
+      },
+      {
+        "label": "Aceitar mudança",
+        "effect": { "productivity": -10, "burnout": 10, "risk": 10 }
+      }
+    ]
+  }
+]
